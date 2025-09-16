@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+.navbar {
+  font-size: 1.1rem;
+}
+.btn-primary, .navbar-brand {
+  background-color: #2196F3 !important;
+  border-color: #2196F3 !important;
+  color: #fff !important;
+}
+.btn-outline-primary {
+  color: #2196F3 !important;
+  border-color: #2196F3 !important;
+}
+.btn-outline-primary:hover {
+  background-color: #2196F3 !important;
+  color: #fff !important;
+}
+.card {
+  border-radius: 0.75rem;
+}
+input, textarea, select {
+  font-size: 1rem;
+}
+footer {
+  font-size: 0.95rem;
+}
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
